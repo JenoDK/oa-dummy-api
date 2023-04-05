@@ -14,7 +14,7 @@ import com.agilent.openaccessdummyapi.service.AuditOperation;
 import com.agilent.openaccessdummyapi.service.AuditService;
 
 @Controller
-@RequestMapping("injection")
+@RequestMapping("v1/sample")
 public class OpenAccessInjectionController {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(OpenAccessInjectionController.class);

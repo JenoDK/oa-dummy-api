@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -37,6 +38,15 @@ public class OpenAccessWorkflowController {
 
 	@PostMapping
 	public ResponseEntity<Workflow> saveWorkflow(@RequestBody Workflow workflow) {
+		return saveOrUpdateWorkflow(workflow);
+	}
+
+	@PutMapping
+	public ResponseEntity<Workflow> updateWorkflow(@RequestBody Workflow workflow) {
+		return saveOrUpdateWorkflow(workflow);
+	}
+
+	private ResponseEntity<Workflow> saveOrUpdateWorkflow(Workflow workflow) {
 		if ("no".equals(workflow.name())) {
 			throw new OpenAccessValidationException("Invalid workflow name!");
 		}
