@@ -1,0 +1,7 @@
+server:
+  port: 80
+
+# App Properties
+app:
+  jwtSecret: bezKoderSecretKey
+  jwtExpirationMs: 86400000

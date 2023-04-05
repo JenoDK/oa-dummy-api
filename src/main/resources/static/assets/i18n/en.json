@@ -1,0 +1,74 @@
+{
+	"productName": "OpenAccess",
+	"save": "Save",
+	"resetValues": "Reset",
+	"resetValuesDescription": "Reset values to original state",
+	"cancel": "Cancel",
+	"remove": "Remove",
+	"error": "Error",
+	"success": "Success",
+	"clearValues": "Clear",
+	"clearValuesDescription": "Clears all the values in the form",
+	"login": {
+		"footer": "OpenAccess addon",
+		"prompt": "Version {{version}}",
+		"longMessage": ""
+	},
+	"navbar": {
+		"home": "Home",
+		"injection": "Injection",
+		"configuration": "Configuration",
+		"userProfile": "User Profile",
+		"logout": "Logout",
+		"workflowConfiguration": "Workflow Configuration"
+	},
+	"title": {
+		"configurationModule": "OpenAccess settings",
+		"injectionModule": "Perform single or multiple injection(s)",
+		"homeModule": "OpenAccess home",
+		"userModule": "User profile",
+		"workflowModule": "Workflows"
+	},
+	"module": {
+		"configuration": {
+			"openlabUrlConnection": "OpenLab URL Connection",
+			"limsFolderPath": "LIMS Command Folder Path",
+			"installationPath": "Installation Path",
+			"domain": "Domain",
+			"inactivityTime": "Inactivity Time (seconds)",
+			"olssUrl": "OLSS URL:",
+			"olssConnectionTimeout": "OLSS connection timeout (milliseconds):",
+			"saveSuccessMessage": "Successfully saved the configuration:"
+		},
+		"injection": {
+			"sampleName": "Sample Name (Single):",
+			"vial": "Vial:",
+			"workflow": "Workflow:",
+			"instrument": "Instrument:",
+			"target": "Target {{number}}",
+			"singleInjection": "Single Injection",
+			"submit": "Submit",
+			"amountOfInjections": "Number of injections:",
+			"remainingInjections": "Remaining injections: {{remaining}}",
+			"submitSuccessMessage": "Injection successfully submitted"
+		},
+		"workflow": {
+			"name": "Workflow Name:",
+			"project": "Project:",
+			"injectionVolume": "Injection Volume:",
+			"acquisitionMethod": "Acquisition Method:",
+			"processingMethod": "Processing Method:",
+			"equilibrationMethod": "Equilibration Method:",
+			"shutdownMethod": "Shutdown Method:",
+			"methodSelection": "Method Selection",
+			"methodSelectionError": "Could not retrieve methods for project '{{projectName}}'",
+			"save": "Save Workflow",
+			"workflowSaveSuccessMessage": "Workflow saved successfully",
+			"add": "Add Workflow",
+			"removeWorkflow": "Remove Workflow",
+			"confirmWorkflowRemove": "Are you sure you want to remove the workflow '{{workflowName}}'. This action cannot be undone.",
+			"removeError": "Workflow '{{workflowName}}' could not be removed.",
+			"workflowRemoveSuccessMessage": "Workflow removed successfully"
+		}
+	}
+}

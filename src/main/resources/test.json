@@ -1,0 +1,65 @@
+{
+  "samples": [
+	{
+	  "sampleName": "Sample 0012",
+	  "instrument": {
+		"id": 52,
+		"name": "Instru_UreaWorkflow",
+		"globalId": "f28c9916-eb32-4a19-b825-8590112de71e",
+		"applicationKey": "OLCDS",
+		"location": 45,
+		"state": "NotConnected"
+	  },
+	  "workflow": {
+		"name": "Workflow 0012 2R",
+		"id": "700d1174-65dc-4cec-bf67-4c9baf529932",
+		"acquisitionMethod": {
+		  "name": "dual.amx"
+		},
+		"processingMethod": {
+		  "name": "GCPR01.pmx"
+		},
+		"equilibrationMethod": {
+		  "name": "preconfiguredgc.amx"
+		},
+		"shutdownMethod": {
+		  "name": "newconfiguredgc.amx"
+		},
+		"injectionVolume": {
+		  "value": 122,
+		  "unit": {
+			"symbol": "mL",
+			"factor": 0.01
+		  }
+		},
+		"project": {
+		  "id": 19,
+		  "globalId": null,
+		  "name": "GC Lab",
+		  "groupId": 3,
+		  "groupGlobalId": null,
+		  "path": null
+		},
+		"injectionType": 0
+	  },
+	  "vialPosition": "12",
+	  "singleInjection": false,
+	  "quantitation": {
+		"targets": {
+		  "target1": null,
+		  "target1Enabled": false,
+		  "target2": null,
+		  "target2Enabled": false,
+		  "target3": null,
+		  "target3Enabled": false,
+		  "target4": null,
+		  "target4Enabled": false,
+		  "target5": null,
+		  "target5Enabled": false
+		}
+	  },
+	  "totalInjections": "12",
+	  "currenInjection": 1
+	}
+  ]
+}
